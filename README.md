@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Battery-Aware Model Predictive Speed and Path Control for an Autonomous Surface Vehicle (USV) with Energy-Aware Route Planning and Realistic 3-DOF Hydrodynamics
 
 ---
@@ -129,3 +130,7 @@ Double-click any Scope block (`Master_Mission_Dashboard_Scope`, `Scope_Speed_Tra
 1. **Battery-Aware MPC Energy Savings**: In Exp 3, Battery-Aware MPC consumed **$113.2\text{ Wh}$** compared to PID's **$121.7\text{ Wh}$** ($7.0\%$ savings) and Conventional MPC's **$194.5\text{ Wh}$** ($41.8\%$ savings), while maintaining smooth thruster commands.
 2. **Current Influence on Route Planning**: In opposing current, power draw increased from $472\text{ W}$ to $513\text{ W}$, proving that energy-aware routing around opposing flows is essential for marine autonomy.
 3. **Autonomous Reserve Protection**: When initial battery was at or below $20\%$ (Exp 6, 12, 14), the supervisor detected infeasibility and aborted to prevent open-water stranding.
+=======
+# Battery-Aware-Model-Predictive-Speed-Control-for-Electric-Tourist-Boats
+MATLAB-based Battery-Aware MPC for Autonomous Surface Vehicles (USVs), integrating 3-DOF dynamics, Theta* path planning, LOS guidance, battery SOC monitoring, PID/MPC controllers, ANN-based tuning, and energy-efficient navigation with simulation-based performance evaluation.
+>>>>>>> b22aa6569d5f96c32ad895ddb1cd602b60d805a5
